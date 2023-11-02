@@ -1,37 +1,50 @@
+body {
+    background-color: black;
+}
+
 h1 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    text-decoration: ;
-    color: ;
+    font-size: 36px;
+    font-style: italic;
+    font-family: "Georgia";
+    padding: 1%;
+    margin: 5px 10px;
+    font-weight: normal;
+    text-decoration: underline;
+    color: white;
     background-color: ;
 }
 
 h2 {
-    font-size: ;
-    font-family: ;
+    font-size: 24px;
+    font-family: "Papyrus", fantasy;
     padding: ;
-    margin: ;
+    margin: 5px 40px;
     font-weight: ;
-    color: ;
+    color: red;
     background-color: ;
 }
 
+h2 + p {
+    font-style: italic;
+    font-weight: bold;
+    color: hotpink;
+    margin: 5px 60px;
+}
+
 p {
-    font-family: ;
-    font-size: ;
+    font-family: "Didot", serif;
+    font-size: 16px;
     padding: ;
-    margin: ;
-    color: ;
+    margin: 15px 40px;
+    color: pink;
     background-color: ;
 }
 
 .logo {
     background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-image: url("https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png");
+    background-color: hotpink;
+    height: 10em;
+    width: 10em;
+    margin: 5px 10px;
 }
